@@ -1,0 +1,42 @@
+
+Start-Date: 2020-04-01  23:17:48
+Commandline: apt remove --purge jeex
+Requested-By: cosmin (1000)
+Purge: jeex:amd64 (12.0.4-1+b2)
+End-Date: 2020-04-01  23:17:50
+
+Start-Date: 2020-04-01  23:17:48
+Commandline: apt remove --purge jeex second command copy
+Requested-By: cosmin (1000)
+Purge: jeex:amd64 (12.0.4-1+b2)
+End-Date: 2020-04-01  23:17:50
+
+Start-Date: 2020-04-02  23:12:22
+Commandline: apt install -f
+Requested-By: cosmin (1000)
+Install: libzip4:amd64 (1.5.1-4, automatic)
+End-Date: 2020-04-02  23:12:23
+
+Start-Date: 2020-04-02  23:14:31
+Commandline: apt remove --purge pagico
+Requested-By: cosmin (1000)
+Purge: pagico:amd64 (9.2.20200402)
+End-Date: 2020-04-02  23:14:33
+
+Start-Date: 2020-04-02  23:14:39
+Commandline: apt autoremove
+Requested-By: cosmin (1000)
+Remove: libzip4:amd64 (1.5.1-4)
+End-Date: 2020-04-02  23:14:39
+
+Start-Date: 2020-04-02  23:17:49
+Commandline: apt install celestia
+Requested-By: cosmin (1000)
+Install: celestia-common:amd64 (1.6.1+dfsg-3.2deb10, automatic), celestia-gtk:amd64 (1.6.1+dfsg-3.2deb10, automatic), celestia:amd64 (1.6.1+dfsg-3.2deb10)
+End-Date: 2020-04-02  23:17:56
+
+Start-Date: 2020-04-02  23:26:06
+Commandline: apt install -f
+Requested-By: cosmin (1000)
+Install: liblttng-ust0:amd64 (2.10.3-1, automatic), liburcu6:amd64 (0.10.2-1, automatic), liblttng-ust-ctl4:amd64 (2.10.3-1, automatic)
+End-Date: 2020-04-02  23:26:07
