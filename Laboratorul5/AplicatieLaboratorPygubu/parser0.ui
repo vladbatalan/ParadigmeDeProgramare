@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<interface>
+  <object class="tk.Frame" id="Parser">
+    <property name="height">100</property>
+    <property name="width">600</property>
+    <layout>
+      <property name="column">0</property>
+      <property name="propagate">True</property>
+      <property name="row">0</property>
+    </layout>
+    <child>
+      <object class="tk.Button" id="add_list_btn">
+        <property name="text" translatable="yes">Add list</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Label" id="integer_list_lbl">
+        <property name="text" translatable="yes">List of integers:</property>
+        <layout>
+          <property name="column">0</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Text" id="integer_list_text">
+        <property name="height">1</property>
+        <property name="text" translatable="yes">1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15</property>
+        <property name="width">50</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="propagate">True</property>
+          <property name="row">0</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Text" id="result_text">
+        <property name="exportselection">true</property>
+        <property name="font">TkDefaultFont</property>
+        <property name="height">8</property>
+        <property name="text" translatable="yes">Result:
+</property>
+        <property name="width">50</property>
+        <layout>
+          <property name="column">1</property>
+          <property name="padx">10</property>
+          <property name="pady">10</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="filter_odd_btn">
+        <property name="text" translatable="yes">Filter odd</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">4</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="filter_primes_btn">
+        <property name="text" translatable="yes">Filter primes</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">6</property>
+        </layout>
+      </object>
+    </child>
+    <child>
+      <object class="tk.Button" id="sum_numbers_btn">
+        <property name="text" translatable="yes">Sum numbers</property>
+        <layout>
+          <property name="column">2</property>
+          <property name="propagate">True</property>
+          <property name="row">7</property>
+        </layout>
+      </object>
+    </child>
+  </object>
+</interface>
