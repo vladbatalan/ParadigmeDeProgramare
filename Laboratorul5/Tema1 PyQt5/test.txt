@@ -1,0 +1,13 @@
+Vom face automat un fisier html
+pas 1: deschideti terminal in locatia aceasta
+pas 2: executati: python3 html_converter.py
+pas 3: deschideti alt terminal in locatia aceasta
+pas 4: executati ./receiver
+pas 5: in interfata html_converter.py alegeti cu browse un fisier txt pt a fi convertit in html
+pas 6: apasati butonul "Convert to Html"
+pas 7: apasati butonul "Send to c"
+pas 8: observati in terminalul cu receiver faptul ca va cere numele noului fisier (fara extensie)
+pas 9: introduceti numele
+pas 10: verificati daca fisierul a fost creat
+pas 11: mi a luat prea mult timp sa fac asta si sunt mandru ^^ 
+pas 12: o zi frumoasa! 
